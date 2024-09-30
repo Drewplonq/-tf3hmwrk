@@ -25,7 +25,7 @@ resource "yandex_compute_instance" "db" {
 
   metadata = {
     serial-port-enable = 1
-    ssh-keys           = var.ssh_key
+    ssh-keys           = local.ssh_key
   }
 
   scheduling_policy { preemptible = var.vms_resources.preemptible }
