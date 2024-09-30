@@ -43,3 +43,5 @@ variable "each_vm" {
  Main Replica создаются первыми, потом уже веб ВМ-ы
  
 <img src="https://github.com/user-attachments/assets/04cb74e6-3189-4c28-b61d-6d32f22be05f" width ="500" height ="240" >
+
+https://github.com/Drewplonq/-tf3hmwrk/blob/main/locals.tf
