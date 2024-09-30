@@ -22,7 +22,7 @@ resource "yandex_compute_instance" "web" {
 
     metadata = {
     serial-port-enable = 1
-    ssh-keys           = "ubuntu:${var.ssh_key}"
+    ssh-keys           = local.ssh_key
   }
 
   scheduling_policy { preemptible = var.vms_resources.preemptible }
