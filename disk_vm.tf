@@ -7,7 +7,6 @@ resource "yandex_compute_disk" "ycdisk" {
 }
 resource "yandex_compute_instance" "storage" {
   name        = var.vms_name_storage
-  depends_on  = [ yandex_compute_disk.ycdisk ]
   platform_id = var.vms_resources.platform_id
 
   resources {
