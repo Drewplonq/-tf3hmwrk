@@ -1,5 +1,5 @@
 resource "yandex_compute_disk" "ycdisk" {
-  count = 3
+  count = var.ycdiskcount
 
   name     = "ycdisk-${count.index}"
   type     = var.disks_resources.disk_type
