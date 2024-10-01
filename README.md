@@ -48,3 +48,15 @@ variable "each_vm" {
 <img src="https://github.com/user-attachments/assets/04cb74e6-3189-4c28-b61d-6d32f22be05f" width ="500" height ="240" >
 
 https://github.com/Drewplonq/-tf3hmwrk/blob/main/locals.tf
+
+
+#### Задание 3
+
+
+https://github.com/Drewplonq/-tf3hmwrk/blob/main/disk_vm.tf
+
+<img src="https://github.com/user-attachments/assets/b1843023-16e6-45fb-bf2d-ddee31dc7fc5"  width ="500" >
+
+
+<img src="https://github.com/user-attachments/assets/7369a83d-5f4b-4086-a1e4-c447e471bff9" width ="500" >
+
