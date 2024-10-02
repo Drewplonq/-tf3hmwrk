@@ -60,3 +60,12 @@ https://github.com/Drewplonq/-tf3hmwrk/blob/main/disk_vm.tf
 
 <img src="https://github.com/user-attachments/assets/7369a83d-5f4b-4086-a1e4-c447e471bff9" width ="500" >
 
+#### Задание 4
+
+https://github.com/Drewplonq/-tf3hmwrk/blob/main/ansible.tf
+
+https://github.com/Drewplonq/-tf3hmwrk/blob/main/ansible.tftpl
+
+<img src="https://github.com/user-attachments/assets/45d05e74-1a76-451f-9c17-0fb6227a1887" width ="650" >
+
+
