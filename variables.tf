@@ -45,6 +45,11 @@ variable "vms_name" {
   default     = "web"
   description = "name for vm's"
 }
+variable "hostname" {
+  type        = string
+  default     = "webprojtf"
+  description = "name for vm's"
+}
 variable "vm_fam" {
   type        = string
   default     = "ubuntu-2004-lts"
