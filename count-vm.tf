@@ -4,6 +4,7 @@ data "yandex_compute_image" "ubuntu" {
 resource "yandex_compute_instance" "web" {
    count       = var.counts
    name        = "${var.vms_name}-${count.index + 1}"
+   hostname    = "${var.hostname}-${count.index + 1}"
    platform_id = var.vms_resources.platform_id
    depends_on = [yandex_compute_instance.db]
 

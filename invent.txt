@@ -1,17 +1,17 @@
 [webservers]
 
-web-1 ansible_host=89.169.149.169 fqdn=fhm6odnc01mbhdqlk1ca.auto.internal
+web-1 ansible_host=89.169.145.192 fqdn=webprojtf-1.ru-central1.internal
 
-web-2 ansible_host=89.169.149.161 fqdn=fhm98pd5930cedldggti.auto.internal
+web-2 ansible_host=89.169.150.129 fqdn=webprojtf-2.ru-central1.internal
 
 
 [databases]
 
-main ansible_host=62.84.117.128 fqdn=fhm4shddth7n0ntcso82.auto.internal
+main ansible_host=51.250.64.231 fqdn=fhmrk9jne7s076597d8m.auto.internal
 
-replica ansible_host=51.250.76.251 fqdn=fhml774ghji7r9ct4mj8.auto.internal
+replica ansible_host=51.250.86.193 fqdn=fhm6ck02b07s49to8u3t.auto.internal
 
 
 [storages]
 
-storage ansible_host=89.169.132.87 fqdn=fhmpu6eqogj005h7bfkd.auto.internal
+storage ansible_host=84.201.158.86 fqdn=fhmt6d9t9b00ct1qjqjr.auto.internal

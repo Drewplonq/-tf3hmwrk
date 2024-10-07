@@ -1,7 +1,6 @@
 resource "yandex_compute_disk" "ycdisk" {
-  count = var.ycdiskcount
-
-  name     = "ycdisk-${count.index}"
+  count    = 3
+  name     = "ycdisk-${count.index }"
   type     = var.disks_resources.disk_type
   size     = var.disks_resources.disk_size
 }
@@ -23,7 +22,7 @@ boot_disk {
   dynamic secondary_disk {
     for_each      = yandex_compute_disk.ycdisk[*].id
       content {
-        disk_id   = secondary_disk.value
+        disk_id   = yandex_compute_disk.ycdisk["${secondary_disk.key}"].id
       }
   }
   metadata = {
